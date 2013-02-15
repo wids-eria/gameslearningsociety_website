@@ -1,0 +1,107 @@
+.ProjectButton{
+    font-weight:100;
+    width:640px;
+    padding:20px 20px 20px 20px;
+    background: #ececec;
+    margin-bottom:20px;
+    float:left;
+    
+    border-bottom:1px solid white;
+    border-top:1px solid #a7a7a7;
+    border-left:1px solid #E4E4E4;
+    border-right:1px solid #E4E4E4;
+    
+    box-shadow: inset 0px 2px 8px #c5c5c5;
+    
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    khtml-border-radius:10px;
+    
+    transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    -o-transition: all 0.35s;
+    }
+
+.ProjectButton:hover{
+    background:#f5f5f5;
+    
+    border:1px solid #a7a7a7;
+    
+    transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    -o-transition: all 0.35s;
+    }
+    
+    .ImageButton{
+    transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    -o-transition: all 0.35s;
+    }
+    
+    .ImageButton:hover{
+    background:#f5f5f5;
+    
+    transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    -o-transition: all 0.35s;
+    }
+    
+    .ProjectButton a:hover{ background:none; }
+    
+.Projects_GameLogoContainer{
+    float:left;    
+    width:235px;
+    padding-right:20px;
+    margin-right:20px;
+    border-right:1px solid #d4d4d4;  
+}
+
+    .PGLC_APAt{ padding:40px 0 40px 0; }
+    .PGLC_V{ padding:90px 0 80px 0; margin-left:5px; }
+    .PGLC_CS{ padding:70px 0 70px 0; }
+    .PGLC_TF{ padding:80px 0 80px 0; margin-left:5px; }
+    .PGLC_SK{ padding:60px 0 60px 0; margin-left:5px;}
+    
+    
+.Projects_NameAndInfo{
+    width:355px;
+    float:right;
+}
+
+button.OrangeButton{
+    font-family: 'Maven Pro', sans-serif;
+    padding:6px 10px;
+    border:1px solid #cf4949;
+    color:#a20014;
+    font-size:12px;
+
+    text-shadow:0px 1px 0px #ff8696;
+    
+    text-transform:uppercase;
+    font-family: 'Maven Pro', sans-serif;
+    text-align:center;
+    font-weight:bold;
+    
+    background: rgb(255,88,66); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,88,66,1) 0%, rgba(249,0,4,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,88,66,1)), color-stop(100%,rgba(249,0,4,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,88,66,1) 0%,rgba(249,0,4,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,88,66,1) 0%,rgba(249,0,4,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,88,66,1) 0%,rgba(249,0,4,1) 100%); /* IE10+ */
+    background: linear-gradient(top,  rgba(255,88,66,1) 0%,rgba(249,0,4,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5842', endColorstr='f90004',GradientType=0 ); /* IE6-9 */   
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+    khtml-border-radius: 5px;
+}
+
+.floatright {
+float: right;
+}
