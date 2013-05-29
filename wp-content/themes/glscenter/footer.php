@@ -40,6 +40,10 @@
             <a href="https://twitter.com/glscenter" target="_blank"> <div class="footer_twitter floatright"></div> </a>
             
         </div>
+	
+	<div class="email_and_phone">
+            <p class="">Contact GLS at: <span class="contact_text">( 608 ) 265-8739</span></p>
+        </div>
         
         
     </div>

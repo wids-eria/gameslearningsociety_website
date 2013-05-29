@@ -57,10 +57,38 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+
+
+	<div class="navigation_background">
+    
+		<div class="navigation_container">
+		    
+		    <a href="/conference/"> <div class="nav_conference_logo"></div> </a>
+				    
+			<ul class="conference_nav_buttons floatright">
+			<li> <a href="http://www.gameslearningsociety.org"> <span>GLS</span> </a> </li>
+			    <li class="conference_nav_home_page"> <a href="/conference/conference-overview/"> <span>Overview</span> </a> </li>
+			    <li> <a href="/conference/conference-program/"> <span>Program</span> </a> </li>
+			    <li> <a href="/conference/conference-speakers/"> <span>Speakers</span> </a> </li>
+			    <li> <a href="/conference/conference-location/"> <span>Location</span> </a> </li>
+			    <li> <a href="/conference/conference-registration/"> <span>Registration</span> </a> </li>
+			    <li> <a href="/conference/conference-sponsors/"> <span>Sponsors</span> </a> </li>
+			    <li> <a href="/conference/conference-organizers/"> <span>Organizers</span> </a> </li>
+			    <li> <a href="/conference/previous-conference/"> <span>Previous Conferences</span> </a> </li>
+			    <li> <a href="/conference/games-and-art-exhibit/"> <span>Art</span> </a> </li>
+			</ul>
+		    
+		</div>
+        
+	</div>
+	
+	
+	
 <div class="page_wrap">
 
 
-<div class="gls90_banner"><a href = "http://www.gameslearningsociety.org/conference/"> <img src="http://www.gameslearningsociety.org/wp-content/themes/glscenter/images/gls90_header.png"/>
+<div class="gls90_banner"><a href = "http://www.gameslearningsociety.org/conference/"> <img src="http://www.gameslearningsociety.org/wp-content/themes/glscenter/images/new_conference_header.png"/>
 </a></div>
 
 
@@ -96,7 +124,7 @@
 
 
 	
-	
+	<!--
 	<div class="conference_navigation_container">
 	
 		<ul class="conference_navigation_large">
@@ -113,7 +141,7 @@
 		</ul>
 	
 	</div>
-	
+	-->
 	
 	
 

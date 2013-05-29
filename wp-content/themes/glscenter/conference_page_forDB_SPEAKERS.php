@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Conference Page With Database
+ Template Name: Conference Page With Database - SPEAKERS
 */
 ?>
 
@@ -143,8 +143,15 @@
 
 <div class="full_width floatleft">
 
-<p class="center_text"> Our tentative schedule will be added here on or shortly after March 15, when we send our
-notification emails out. So come on back here then! </p>
+	<h2 class="center_text"> We are delighted to announce our confirmed keynote speakers! </h2>
+		<br />
+	<p class="center_text"> Keynote at <a href="http://www.gameslearningsociety.org/conference/gls-educators-symposium/">GLSES</a>:  <a href="http://www.clemson.edu/hehd/departments/education/faculty-staff/profile.html?userid=dherro"><span class="bold">Dani Herro</span> </a> </p>
+		<br />
+	<p class="center_text"> Confirmed Keynotes at GLS proper: <a href="http://www.maryflanagan.com/"><span class="bold">Mary Flanagan</a> and <a href="http://junyo.com/about/">Steve Schoettler</a></span></p>
+		<br />
+	<p class="center_text"> Our notification emails for all submissions will be sent on March 15, so keep an eye out here for
+	updates on who will be speaking at GLS!</p>
+	
 
 	<!-- put stuff here -->
 	

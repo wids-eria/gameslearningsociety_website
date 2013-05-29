@@ -18,7 +18,7 @@
                 var params = {
                         disableContextMenu: true
                 };
-                unityObject.embedUnity("unityPlayer", "/wp-content/themes/glscenter/builds/progenitor/Progenitor_3_14_800x600.unity3d", 800, 600, params);
+                unityObject.embedUnity("unityPlayer", "/wp-content/themes/glscenter/builds/progenitor/ProgenitorX_5_23_12_SilentSignin.unity3d", 800, 600, params);
                 
         }
         --> 

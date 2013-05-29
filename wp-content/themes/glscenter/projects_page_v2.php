@@ -71,7 +71,7 @@
             
                     
             
-            <a href="http://www.eriainteractive.com/project_ProgenitorX.php" target="_blank">
+            <a href="http://www.gameslearningsociety.org/px_microsite/" target="_blank">
                 <li class="visit_microsite_button">
                     <div class="microsite_icon"></div>
                     Visit Microsite

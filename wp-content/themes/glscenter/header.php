@@ -92,7 +92,7 @@
                     <li class="nav_projects_page"> <a href="/?page_id=17"> <span>Projects</span> </a> </li>
                     <li class="nav_courses_page"> <a href="/?page_id=19"> <span>Courses</span> </a> </li>
 		    <li class="nav_people_page"> <a href="/?page_id=21"> <span>People</span> </a> </li>
-		    <li class="nav_conference_page"> <a href="/?page_id=5"> <span>Conference</span> </a> </li>
+		    <li class="nav_conference_page"> <a href="http://www.glsconference.org"> <span>Conference</span> </a> </li>
 		
 		    <li class="nav_search_box">  
 		    
