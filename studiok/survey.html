@@ -11,11 +11,25 @@
 
     <!-- validations -->
     <script type="text/javascript" src="parsley.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.parsley-form').parsley({
+                errors: {
+                    container: function (element, isRadioOrCheckbox) {
+                        var $container = element.parents().children(".parsley-error-container");
+                        if ($container.length === 0) {
+                            $container = $("<div class='parsley-error-container'></div>").insertAfter(element);
+                        }
+                        return $container;
+                    }
+                }
+            });
+        });
+    </script>
 
     <!-- typekit -->
     <script type="text/javascript" src="//use.typekit.net/qkw7frk.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
 </head>
 
 <body id="">
@@ -33,7 +47,7 @@
 
                     <div class="ss-form-desc ss-no-ignore-whitespace">
                         <p>
-                        Before downloading the curriculum, please tell us a bit about who you are and why you’re interested in it. This information will not be disclosed to anyone – it’s solely for our understanding of who we’re reaching. Thanks – Studio K Project Team. Feel free to contact us with questions or concerns at <a href="mailto:outreach@learninggamesnetwork.org">outreach@learninggamesnetwork.org</a>.
+                        Before downloading the curriculum, please tell us a bit about who you are and why you're interested in it. This information will not be disclosed to anyone - it's solely for our understanding of who we're reaching. Thanks - Studio K Project Team. Feel free to contact us with questions or concerns at <a href="mailto:outreach@learninggamesnetwork.org">outreach@learninggamesnetwork.org</a>.
                         </p>
                     </div>
 
@@ -45,7 +59,7 @@
             </div>
 
             <div class="ss-form">
-                <form action="https://docs.google.com/forms/d/18IZtvoWpdHnk5bm4ns-8Jc_dKVHiyCmH3zwsjRtwYuA/formResponse" method="POST" id="ss-form" target="_self" onsubmit="" data-validate="parsley">
+                <form action="https://docs.google.com/forms/d/18IZtvoWpdHnk5bm4ns-8Jc_dKVHiyCmH3zwsjRtwYuA/formResponse" method="POST" id="ss-form" target="_self" onsubmit="" novalidate class="parsley-form">
                     <div class="ss-form-question errorbox-good">
                         <div dir="ltr" class="ss-item  ss-text">
                             <div class="ss-form-entry">
@@ -65,7 +79,7 @@
                                     <div class="ss-q-title">Email:</div>
                                     <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                                 </label>
-                                <input type="text" name="entry.977220268" value="" class="ss-q-short" id="entry_977220268" dir="auto" />
+                                <input type="email" name="entry.977220268" value="" class="ss-q-short" id="entry_977220268" dir="auto" />
                             </div>
                         </div>
                     </div>
@@ -134,11 +148,13 @@
 
                                 <div class="ss-printable-hint" aria-hidden><p class="white">Mark only one oval.</p></div>
 
+                                <div class="parsley-error-container"></div>
+
                                 <ul class="ss-choices">
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="radio" name="entry.1724127040" value="Teacher" id="group_1724127040_1" class="ss-q-radio" aria-label="Teacher">
+                                                <input type="radio" name="entry.1724127040" value="Teacher" id="group_1724127040_1" class="ss-q-radio" aria-label="Teacher" required />
                                             </span>
                                             <span class="ss-choice-label">Teacher</span>
                                         </label>
@@ -147,7 +163,7 @@
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="radio" name="entry.1724127040" value="Parent" id="group_1724127040_2" class="ss-q-radio" aria-label="Parent">
+                                                <input type="radio" name="entry.1724127040" value="Parent" id="group_1724127040_2" class="ss-q-radio" aria-label="Parent" required />
                                             </span>
                                             <span class="ss-choice-label">Parent</span>
                                         </label>
@@ -156,7 +172,7 @@
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="radio" name="entry.1724127040" value="Youth Program Advisor" id="group_1724127040_3" class="ss-q-radio" aria-label="Youth Program Advisor">
+                                                <input type="radio" name="entry.1724127040" value="Youth Program Advisor" id="group_1724127040_3" class="ss-q-radio" aria-label="Youth Program Advisor" required />
                                             </span>
 
                                             <span class="ss-choice-label">Youth Program Advisor</span>
@@ -166,7 +182,7 @@
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="radio" name="entry.1724127040" value="Administrator" id="group_1724127040_4" class="ss-q-radio" aria-label="Administrator">
+                                                <input type="radio" name="entry.1724127040" value="Administrator" id="group_1724127040_4" class="ss-q-radio" aria-label="Administrator" required />
                                             </span>
                                             <span class="ss-choice-label">Administrator</span>
                                         </label>
@@ -175,7 +191,7 @@
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="radio" name="entry.1724127040" value="Researcher" id="group_1724127040_5" class="ss-q-radio" aria-label="Researcher">
+                                                <input type="radio" name="entry.1724127040" value="Researcher" id="group_1724127040_5" class="ss-q-radio" aria-label="Researcher" required />
                                             </span>
                                             <span class="ss-choice-label">Researcher</span>
                                         </label>
@@ -184,7 +200,7 @@
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="radio" name="entry.1724127040" value="Student" id="group_1724127040_6" class="ss-q-radio" aria-label="Student">
+                                                <input type="radio" name="entry.1724127040" value="Student" id="group_1724127040_6" class="ss-q-radio" aria-label="Student" required />
                                             </span>
                                             <span class="ss-choice-label">Student</span>
                                         </label>
@@ -193,12 +209,12 @@
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="radio" name="entry.1724127040" value="__other_option__" id="group_1724127040_7" class="ss-q-radio ss-q-other-toggle">
+                                                <input type="radio" name="entry.1724127040" value="__other_option__" id="group_1724127040_7" class="ss-q-radio ss-q-other-toggle" required />
                                             </span>
                                             Other:
                                         </label>
                                         <span class="ss-q-other-container goog-inline-block">
-                                            <input type="text" name="entry.1724127040.other_option_response" value="" class="ss-q-other" id="entry_1724127040_other_option_response" dir="auto" aria-label="Other">
+                                            <input type="text" name="entry.1724127040.other_option_response" value="" class="ss-q-other" id="entry_1724127040_other_option_response" dir="auto" aria-label="Other" />
                                         </span>
                                     </li>
                                 </ul>
@@ -222,11 +238,13 @@
                                     <p class="white">Check all that apply.</p>
                                 </div>
 
+                                <div class="parsley-error-container"></div>
+
                                 <ul class="ss-choices">
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="checkbox" name="entry.1585469093" value="Under 6 years" id="group_1585469093_1" class="ss-q-checkbox">
+                                                <input type="checkbox" name="entry.1585469093" value="Under 6 years" id="group_1585469093_1" class="ss-q-checkbox" required />
                                             </span>
                                             <span class="ss-choice-label">Under 6 years</span>
                                         </label>
@@ -235,7 +253,7 @@
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="checkbox" name="entry.1585469093" value="9-11 years" id="group_1585469093_2" class="ss-q-checkbox">
+                                                <input type="checkbox" name="entry.1585469093" value="9-11 years" id="group_1585469093_2" class="ss-q-checkbox" required />
                                             </span>
 
                                             <span class="ss-choice-label">9-11 years</span>
@@ -245,7 +263,7 @@
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="checkbox" name="entry.1585469093" value="12-14 years" id="group_1585469093_3" class="ss-q-checkbox">
+                                                <input type="checkbox" name="entry.1585469093" value="12-14 years" id="group_1585469093_3" class="ss-q-checkbox" required />
                                             </span>
                                             <span class="ss-choice-label">12-14 years</span>
                                         </label>
@@ -254,7 +272,7 @@
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="checkbox" name="entry.1585469093" value="15-17 years" id="group_1585469093_4" class="ss-q-checkbox">
+                                                <input type="checkbox" name="entry.1585469093" value="15-17 years" id="group_1585469093_4" class="ss-q-checkbox" required />
                                             </span>
                                             <span class="ss-choice-label">15-17 years</span>
                                         </label>
@@ -263,7 +281,7 @@
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="checkbox" name="entry.1585469093" value="18-20 years" id="group_1585469093_5" class="ss-q-checkbox">
+                                                <input type="checkbox" name="entry.1585469093" value="18-20 years" id="group_1585469093_5" class="ss-q-checkbox" required />
                                             </span>
                                             <span class="ss-choice-label">18-20 years</span>
                                         </label>
@@ -272,7 +290,7 @@
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="checkbox" name="entry.1585469093" value="21 years and older" id="group_1585469093_6" class="ss-q-checkbox">
+                                                <input type="checkbox" name="entry.1585469093" value="21 years and older" id="group_1585469093_6" class="ss-q-checkbox" required />
                                             </span>
                                             <span class="ss-choice-label">21 years and older</span>
                                         </label>
@@ -296,11 +314,13 @@
 
                                 <div class="ss-printable-hint" aria-hidden><p class="white">Check all that apply.</p></div>
 
+                                <div class="parsley-error-container"></div>
+
                                 <ul class="ss-choices">
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="checkbox" name="entry.2087107871" value="Professional Referral" id="group_2087107871_1" class="ss-q-checkbox">
+                                                <input type="checkbox" name="entry.2087107871" value="Professional Referral" id="group_2087107871_1" class="ss-q-checkbox" required />
                                             </span>
                                             <span class="ss-choice-label">Professional Referral</span>
                                         </label>
@@ -309,7 +329,7 @@
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="checkbox" name="entry.2087107871" value="Personal Referral" id="group_2087107871_2" class="ss-q-checkbox">
+                                                <input type="checkbox" name="entry.2087107871" value="Personal Referral" id="group_2087107871_2" class="ss-q-checkbox" required />
                                             </span>
                                             <span class="ss-choice-label">Personal Referral</span>
                                         </label>
@@ -318,7 +338,7 @@
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="checkbox" name="entry.2087107871" value="Press Release/Advertisement" id="group_2087107871_3" class="ss-q-checkbox">
+                                                <input type="checkbox" name="entry.2087107871" value="Press Release/Advertisement" id="group_2087107871_3" class="ss-q-checkbox" required />
                                             </span>
                                             <span class="ss-choice-label">Press Release/Advertisement</span>
                                         </label>
@@ -327,7 +347,7 @@
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="checkbox" name="entry.2087107871" value="Conference&nbsp;" id="group_2087107871_4" class="ss-q-checkbox">
+                                                <input type="checkbox" name="entry.2087107871" value="Conference&nbsp;" id="group_2087107871_4" class="ss-q-checkbox" required />
                                             </span>
                                             <span class="ss-choice-label">Conference </span>
                                         </label>
@@ -336,7 +356,7 @@
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="checkbox" name="entry.2087107871" value="Games+Learning+Society Center Event" id="group_2087107871_5" class="ss-q-checkbox">
+                                                <input type="checkbox" name="entry.2087107871" value="Games+Learning+Society Center Event" id="group_2087107871_5" class="ss-q-checkbox" required />
                                             </span>
                                             <span class="ss-choice-label">Games+Learning+Society Center Event</span>
                                         </label>
@@ -345,7 +365,7 @@
                                     <li class="ss-choice-item">
                                         <label>
                                             <span class="ss-choice-item-control goog-inline-block">
-                                                <input type="checkbox" name="entry.2087107871" value="__other_option__" id="group_2087107871_6" class="ss-q-checkbox ss-q-other-toggle">
+                                                <input type="checkbox" name="entry.2087107871" value="__other_option__" id="group_2087107871_6" class="ss-q-checkbox ss-q-other-toggle" required />
                                             </span>
                                             Other:
                                         </label>
@@ -371,7 +391,8 @@
                                     <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
                                 </label>
 
-                                <textarea name="entry.981610695" rows="8" cols="0" class="ss-q-long" id="entry_981610695" dir="auto" aria-required="true"></textarea>
+                                <div class="parsley-error-container"></div>
+                                <textarea name="entry.981610695" rows="8" cols="0" class="ss-q-long" id="entry_981610695" dir="auto" aria-required="true" required></textarea>
                             </div>
                         </div>
                     </div>
