@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+        <title>Fair Play | GLS Center</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		<!--
+		var unityObjectUrl = "http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js";
+		if (document.location.protocol == 'https:')
+			unityObjectUrl = unityObjectUrl.replace("http://", "https://ssl-");
+		document.write('<script type="text\/javascript" src="' + unityObjectUrl + '"><\/script>');
+		-->
+	</script>
+        <script type="text/javascript">
+		var params = {
+			backgroundcolor: "000000",
+			bordercolor: "000000",
+			textcolor: "FFFFFF",
+			logoimage: "MyLogo.png",
+		};
+		var u = new UnityObject2({ params: params });
+		u.observeProgress(function (progress) {
+			var $missingScreen = jQuery(progress.targetEl).find(".missing");
+			switch(progress.pluginStatus) {
+				case "unsupported":
+					showUnsupported();
+				break;
+				case "broken":
+					alert("You will need to restart your browser after installation.");
+				break;
+				case "missing":
+					$missingScreen.find("a").click(function (e) {
+						e.stopPropagation();
+						e.preventDefault();
+						u.installPlugin();
+						return false;
+					});
+					$missingScreen.show();
+				break;
+				case "installed":
+					$missingScreen.remove();
+				break;
+				case "first":
+				break;
+			}
+		});
+		jQuery(function(){
+			u.initPlugin(jQuery("#unityPlayer")[0], "FairPlayWeb.unity3d");
+		});
+        </script>
+		<style type="text/css">
+		<!--
+		body {
+			font-family: Helvetica, Verdana, Arial, sans-serif;
+			background-color: black;
+			color: white;
+			text-align: center;
+		}
+		a:link, a:visited {
+			color: #bfbfbf;
+		}
+		a:active, a:hover {
+			color: #bfbfbf;
+		}
+		p.header {
+			font-size: small;
+		}
+		p.header span {
+			font-weight: bold;
+		}
+		p.footer {
+			font-size: x-small;
+		}
+		div.content {
+			margin: auto;
+			width: 800px;
+		}
+		div.missing {
+			margin: auto;
+			position: relative;
+			top: 50%;
+			width: 193px;
+		}
+		div.missing a {
+			height: 63px;
+			position: relative;
+			top: -31px;
+		}
+		div.missing img {
+			border-width: 0px;
+		}
+		div#unityPlayer {
+			cursor: default;
+			height: 600px;
+			width: 800px;
+		}
+		-->
+		</style>
+	</head>
+	<body>
+		<p class="header">
+			<span>Fair Play </span> GLS Center
+		</p>
+		<div class="content">
+			<div id="unityPlayer">
+				<div class="missing">
+					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+						<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+					</a>
+				</div>
+			</div>
+		</div>
+		<p class="footer">&laquo; created by the <a href="http://www.gameslearningsociety.org/projects/" title="Go to gameslearningsociety.org">GLS Center</a> &raquo;</p>
+	</body>
+
+</html>

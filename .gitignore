@@ -2,3 +2,4 @@ wp-content/themes/glscenter/builds/**
 wp-content/uploads/**
 wp-config.php
 *.unity3d
+*.app

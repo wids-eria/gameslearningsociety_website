@@ -127,19 +127,23 @@
                 </li>
             </a>
             
-            <a class="fancybox" rel="fair_play_gallery" href="/wp-content/themes/glscenter/images/screenshots/fairplay/fairplay_screen_1.jpg">
+            <a class="fancybox" rel="fair_play_gallery" href="/wp-content/themes/glscenter/images/screenshots/fairplay/fairplay_screen_1.png">
                 <li class="view_screenshots_button">
                     <div class="screenshot_icon"></div>
                     View Screenshots
                 </li>
             </a>
             
-            <a class="fancybox hidden" rel="fair_play_gallery" href="/wp-content/themes/glscenter/images/screenshots/fairplay/fairplay_screen_2.jpg"></a>
-            <a class="fancybox hidden" rel="fair_play_gallery" href="/wp-content/themes/glscenter/images/screenshots/fairplay/fairplay_screen_3.jpg"></a>
-            <a class="fancybox hidden" rel="fair_play_gallery" href="/wp-content/themes/glscenter/images/screenshots/fairplay/fairplay_screen_4.jpg"></a>
+            <a class="fancybox hidden" rel="fair_play_gallery" href="/wp-content/themes/glscenter/images/screenshots/fairplay/fairplay_screen_2.png"></a>
+            <a class="fancybox hidden" rel="fair_play_gallery" href="/wp-content/themes/glscenter/images/screenshots/fairplay/fairplay_screen_3.png"></a>
+            <a class="fancybox hidden" rel="fair_play_gallery" href="/wp-content/themes/glscenter/images/screenshots/fairplay/fairplay_screen_4.png"></a>
+<a class="fancybox hidden" rel="fair_play_gallery" href="/wp-content/themes/glscenter/images/screenshots/fairplay/fairplay_screen_5.png"></a>
+<a class="fancybox hidden" rel="fair_play_gallery" href="/wp-content/themes/glscenter/images/screenshots/fairplay/fairplay_screen_6.png"></a>
+<a class="fancybox hidden" rel="fair_play_gallery" href="/wp-content/themes/glscenter/images/screenshots/fairplay/fairplay_screen_7.png"></a>
+<a class="fancybox hidden" rel="fair_play_gallery" href="/wp-content/themes/glscenter/images/screenshots/fairplay/fairplay_screen_8.png"></a>
+<a class="fancybox hidden" rel="fair_play_gallery" href="/wp-content/themes/glscenter/images/screenshots/fairplay/fairplay_screen_9.png"></a>
             
-            
-            <a href="http://www.eriainteractive.com/project_Pathfinder.php" target="_blank">
+            <a href="http://www.gameslearningsociety.org/fairplay/" target="_blank">
                 <li class="visit_microsite_button">
                     <div class="microsite_icon"></div>
                     Visit Microsite
@@ -207,13 +211,14 @@
                 </li>
             </a>
             
+           <!-- 
            <a href="http://www.eriainteractive.com/project_AnatomyProAmTracts.php" target="_blank">
                 <li class="visit_microsite_button">
                     <div class="microsite_icon"></div>
                     Visit Microsite
                 </li>
             </a>
-            
+            -->
 
         </ul>
         
@@ -274,12 +279,14 @@
             <a class="fancybox hidden" rel="virulent_gallery" href="/wp-content/themes/glscenter/images/screenshots/virulent/Virulent_Screenshot_3.png"></a>
             <a class="fancybox hidden" rel="virulent_gallery" href="/wp-content/themes/glscenter/images/screenshots/virulent/Virulent_Screenshot_4.png"></a>
             
+            <!--
             <a href="http://www.eriainteractive.com/project_Virulent.php" target="_blank">
                 <li class="visit_microsite_button">
                     <div class="microsite_icon"></div>
                     Visit Microsite
                 </li>
             </a>
+            -->
             
             <a href="https://itunes.apple.com/us/app/virulent/id438485177?mt=8" target="_blank">
                 <li class="view_on_appstore_button">
@@ -319,14 +326,14 @@
         </div>
         
         <ul class="micro_game_nav_container">
-            
+            <!--
             <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_1.png">
                 <li class="view_screenshots_button">
                     <div class="screenshot_icon"></div>
                     View Screenshots
                 </li>
             </a>
-            
+            -->
             <!--Gallery-->
             <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_9.png"></a>
             <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_2.png"></a>
@@ -338,7 +345,8 @@
             <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_7.png"></a>
             <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_8.png"></a>
             
-            <a href="http://www.eriainteractive.com/project_StudioK.php" target="_blank">
+            
+            <a href="http://www.gameslearningsociety.org/studiok/" target="_blank">
                 <li class="visit_microsite_button">
                     <div class="microsite_icon"></div>
                     Visit Microsite
@@ -406,12 +414,14 @@
             <a class="fancybox" rel="cs_gallery" href="/wp-content/themes/glscenter/images/screenshots/cs/CitizenScience_Screenshot_9.png"></a>
             <a class="fancybox" rel="cs_gallery" href="/wp-content/themes/glscenter/images/screenshots/cs/CitizenScience_Screenshot_10.png"></a>
             
+            <!--
             <a href="http://www.eriainteractive.com/project_CitizenScience.php" target="_blank">
                 <li class="visit_microsite_button">
                     <div class="microsite_icon"></div>
                     Visit Microsite
                 </li>
             </a>
+            -->
 
         </ul>
         
@@ -479,7 +489,7 @@
             <div class="micro_description_paragraph">
                 <p>
                     Learning in the Making is a collaborative research project between University of
-                    Wisconsin-Madison, George Mason University, and the Children’s Museum of Pittsburgh.
+                    Wisconsin-Madison, George Mason University, and the Childrenï¿½s Museum of Pittsburgh.
                     This research project takes an ethnographic and design-based approach in order to
                     understand how and what people learn from their participation in makerspaces, and
                     also to explore how features of these environments can be leveraged to create
@@ -524,9 +534,9 @@
             <div class="micro_description_paragraph">
                 <p>
                     CyberSTEM is a an National Science Foundation funded game-based learning network
-                    designed to engage K–12 and adult learners, teachers, administrators, informal
-                    science educators, and research scientists. The project will link GLS games—such
-                    as Progenitor X, FairPlay, Tenacity, Virulent and Citizen Science—to a cyberlearning
+                    designed to engage Kï¿½12 and adult learners, teachers, administrators, informal
+                    science educators, and research scientists. The project will link GLS gamesï¿½such
+                    as Progenitor X, FairPlay, Tenacity, Virulent and Citizen Scienceï¿½to a cyberlearning
                     network designed to establish a new model of science education that spans home and
                     school, brings youth and adults together in learning, and integrates cutting-edge
                     analytic, visualization and networking to transform science education.

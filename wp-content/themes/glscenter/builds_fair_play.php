@@ -18,7 +18,7 @@
                 var params = {
                         disableContextMenu: true
                 };
-                unityObject.embedUnity("unityPlayer", "/wp-content/themes/glscenter/builds/fair_play/Pathfinder_WebPlayer.unity3d", 800, 600, params);
+                unityObject.embedUnity("unityPlayer", "/fairplay/FairPlayWeb.unity3d", 800, 600, params);
                 
         }
         --> 
