@@ -3,3 +3,4 @@ wp-content/uploads/**
 wp-config.php
 *.unity3d
 *.app
+*.zip
