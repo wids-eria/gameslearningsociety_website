@@ -285,7 +285,7 @@ input[type=checkbox].checkbox{
         height:102px;
         width:216px;
         float:left;
-        margin:0 0 0 260px;
+        margin:0 0 0 140px;
         background:url(images/gls_footer_logo.png);
     }
     
@@ -293,8 +293,16 @@ input[type=checkbox].checkbox{
         height:60px;
         width:211px;
         float:right;
-        margin:20px 260px 0 0px;
+        margin:20px 180px 0 0px;
         background:url(images/microsoft_footer_logo.png);
+    }
+
+    .amd_footer_logo{
+        height:75px;
+        width:155px;
+        float:right;
+        margin:20px 60px 0 0px;
+        background:url(images/amd_footer_logo.png);
     }
 
 
@@ -849,7 +857,7 @@ input[type=text].file_upload_box{
     }
         .ss-form-container input[type=submit]:hover{ cursor:pointer; }
         
-li.required{
+.parsley-error-container li{
     padding:3px;
     margin:3px 0 5px 0;
     border-radius:3px;
@@ -859,6 +867,7 @@ li.required{
     font-family:museo-slab;
     text-transform:uppercase;
     color:#ffc3c3;
+    clear: both;
 }
 
 
