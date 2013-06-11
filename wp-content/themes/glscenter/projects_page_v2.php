@@ -341,25 +341,38 @@
         </div>
         
         <ul class="micro_game_nav_container">
-            <!--
-            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_1.png">
+            <a class="fancybox trailer" href="http://vimeo.com/67840823">
+                <li class="view_trailer_button">
+                    <div class="trailer_icon"></div>
+                    View Trailer
+                </li>
+            </a>
+
+            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_1.jpg">
                 <li class="view_screenshots_button">
                     <div class="screenshot_icon"></div>
                     View Screenshots
                 </li>
             </a>
-            -->
+
             <!--Gallery-->
-            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_9.png"></a>
-            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_2.png"></a>
-            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_10.png"></a>
-            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_3.png"></a>
-            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_4.png"></a>
-            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_5.png"></a>
-            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_6.png"></a>
-            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_7.png"></a>
-            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_8.png"></a>
-            
+            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_2.jpg"></a>
+            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/StudioK_Screenshot_3.jpg"></a>
+
+            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/Kodu - Created World.jpg"></a>
+            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/Kodu - Programming.jpg"></a>
+            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/Kodu - Programming 2.jpg"></a>
+            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/Kodu - Start with Kodu.jpg"></a>
+            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/Kodu - Student Game.jpg"></a>
+            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/Kodu - Student game 2.jpg"></a>
+            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/Kodu - Student Game 3.jpg"></a>
+            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/Kodu - Student World.jpg"></a>
+            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/Kodu - Winner Screen.jpg"></a>
+
+            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/Students_1.JPG"></a>
+            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/Students_2.JPG"></a>
+            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/Students_3.JPG"></a>
+            <a class="fancybox" rel="studiok_gallery" href="/wp-content/themes/glscenter/images/screenshots/studiok/Students_4.JPG"></a>
             
             <a href="http://www.gameslearningsociety.org/studiok/" target="_blank">
                 <li class="visit_microsite_button">
