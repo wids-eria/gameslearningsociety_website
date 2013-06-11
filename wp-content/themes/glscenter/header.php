@@ -56,19 +56,19 @@
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
         
         <!-- Add mousewheel plugin (this is optional) -->
-        <script type="text/javascript" src="/wp-content/themes/glscenter/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+        <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
         
         <!-- Add fancyBox -->
-        <link rel="stylesheet" href="/wp-content/themes/glscenter/fancybox/source/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
-        <script type="text/javascript" src="/wp-content/themes/glscenter/fancybox/source/jquery.fancybox.pack.js?v=2.1.3"></script>
+        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fancybox/source/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
+        <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/source/jquery.fancybox.pack.js?v=2.1.3"></script>
         
         <!-- Optionally add helpers - button, thumbnail and/or media -->
-        <link rel="stylesheet" href="/wp-content/themes/glscenter/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-        <script type="text/javascript" src="/wp-content/themes/glscenter/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-        <script type="text/javascript" src="/wp-content/themes/glscenter/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+        <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
         
-        <link rel="stylesheet" href="/wp-content/themes/glscenter/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-        <script type="text/javascript" src="/wp-content/themes/glscenter/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+        <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 	
 
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
@@ -84,14 +84,14 @@
     
         <div class="navigation_container">
             
-            <a href="http://www.gameslearningsociety.org"> <div class="nav_gls_logo"></div> </a>
+            <a href="<?php bloginfo('siteurl'); ?>"> <div class="nav_gls_logo"></div> </a>
                             
                 <ul class="nav_buttons floatright">
-                    <li class="nav_home_page"> <a href="/?page_id=2"> <span>Home</span> </a> </li>
-                    <li class="nav_about_page"> <a href="/?page_id=12"> <span>About</span> </a> </li>
-                    <li class="nav_projects_page"> <a href="/?page_id=17"> <span>Projects</span> </a> </li>
-                    <li class="nav_courses_page"> <a href="/?page_id=19"> <span>Courses</span> </a> </li>
-		    <li class="nav_people_page"> <a href="/?page_id=21"> <span>People</span> </a> </li>
+                    <li class="nav_home_page"> <a href="<?php echo get_page_link(2) ?>"> <span>Home</span> </a> </li>
+                    <li class="nav_about_page"> <a href="<?php echo get_page_link(12) ?>"> <span>About</span> </a> </li>
+                    <li class="nav_projects_page"> <a href="<?php echo get_page_link(17) ?>"> <span>Projects</span> </a> </li>
+                    <li class="nav_courses_page"> <a href="<?php echo get_page_link(19) ?>"> <span>Courses</span> </a> </li>
+		    <li class="nav_people_page"> <a href="<?php echo get_page_link(21) ?>"> <span>People</span> </a> </li>
 		    <li class="nav_conference_page"> <a href="http://www.glsconference.org"> <span>Conference</span> </a> </li>
 		
 		    <li class="nav_search_box">  

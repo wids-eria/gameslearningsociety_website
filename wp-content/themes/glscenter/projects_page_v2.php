@@ -28,6 +28,9 @@
                     humans to contain the threat. With your help, the Progenitor X
                     Defense Force will prevail. But be aware: Zombies are out there,
                     and we are all susceptible.
+                    <a href="<?php bloginfo('template_directory'); ?>/pdfs/Progenitor_3.pdf" target="_blank">
+                        Click here to view teacher resources for this game
+                    </a>
                 </p>
             </div>
             
@@ -35,7 +38,7 @@
         
         <ul class="micro_game_nav_container">
         
-                <a href="http://www.gameslearningsociety.org/game-build-progenitor-x/">
+                <a href="<?php bloginfo('siteurl'); ?>/game-build-progenitor-x/">
                         <li class="view_trailer_button">
                             <div class="play_icon"></div>
                             Play Now
@@ -49,7 +52,7 @@
                 </li>
             </a>
             
-            <a class="fancybox" rel="progenitor_gallery" href="/wp-content/themes/glscenter/images/screenshots/progenitor_gallery/intro1.jpg">
+            <a class="fancybox" rel="progenitor_gallery" href="<?php bloginfo('template_directory'); ?>/images/screenshots/progenitor_gallery/intro1.jpg">
                 <li class="view_screenshots_button">
                     <div class="screenshot_icon"></div>
                     View Screenshots
@@ -71,7 +74,7 @@
             
                     
             
-            <a href="http://www.gameslearningsociety.org/px_microsite/" target="_blank">
+            <a href="<?php bloginfo('siteurl'); ?>/px_microsite/" target="_blank">
                 <li class="visit_microsite_button">
                     <div class="microsite_icon"></div>
                     Visit Microsite
@@ -106,6 +109,9 @@
                     network while running a research lab. Over the course of the game, players
                     will interact with a diversity of people from academia who can assist Jamal
                     with the ultimate goal of becoming a renowned professor.
+                    <a href="/wp-content/themes/glscenter/pdfs/FairPlay.pdf" target="_blank">
+                        Click here to view teacher resources for this game
+                    </a>
                 </p>
             </div>
             
@@ -120,7 +126,7 @@
                 </li>
         </a>
             
-            <a class="fancybox trailer" href="http://youtu.be/cEUWpCgiXdM=1&autoplay-1">
+            <a class="fancybox trailer" href="http://youtu.be/Nn5EC2M6VqI">
                 <li class="view_trailer_button">
                     <div class="trailer_icon"></div>
                     View Trailer
@@ -176,6 +182,9 @@
                     the body in full 3D. With the ability to adjust the transparency of
                     each layer, you'll be able to easily identify the relationship of
                     organs to each other as well as their names!
+                    <a href="/wp-content/themes/glscenter/pdfs/AnatomyBrowser.pdf" target="_blank">
+                        Click here to view teacher resources for this game
+                    </a>
                 </p>
             </div>
             
@@ -246,6 +255,9 @@
                     armies of viral proteins while stealing precious energy and production facilities
                     to make more of yourself. You have numbers and speed on your side, use them
                     wisely and recklessly.
+                    <a href="/wp-content/themes/glscenter/pdfs/Virulent.pdf" target="_blank">
+                        Click here to view teacher resources for this game
+                    </a>
                 </p>
             </div>
             
@@ -320,6 +332,9 @@
                     tools intended to enable teachers to help learners how to make their own video games
                     using Microsoft Kodu. Kodu is a powerful 3D game design and programming tool that
                     enables users to focus on creating compelling games for their friends.
+                    <a href="/studiok/survey.html" target="_blank">
+                        Click here to view teacher resources for this game
+                    </a>
                 </p>
             </div>
             
@@ -382,6 +397,9 @@
                     goal is to restore the lake. By focusing on the ecological needs of Lake Mendota
                     as well as the surrounding community, the game is able to bring together real-world
                     issues and scientific practices.
+                    <a href="/wp-content/themes/glscenter/pdfs/CS2.pdf" target="_blank">
+                        Click here to view teacher resources for this game
+                    </a>
                 </p>
             </div>
             
