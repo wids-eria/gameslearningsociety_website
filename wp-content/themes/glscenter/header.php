@@ -37,87 +37,70 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 	
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-	
-	
-	<!-- TypeKit -->
-	<script type="text/javascript" src="//use.typekit.net/tbz4lac.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	
-	
-	
-	
-	
-	
-	<?php wp_head(); ?>
-	
-	
-	<!-- FancyBox -->
-        <!-- Add jQuery library -->
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-        
-        <!-- Add mousewheel plugin (this is optional) -->
-        <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
-        
-        <!-- Add fancyBox -->
-        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fancybox/source/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
-        <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/source/jquery.fancybox.pack.js?v=2.1.3"></script>
-        
-        <!-- Optionally add helpers - button, thumbnail and/or media -->
-        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-        <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-        <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
-        
-        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-        <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-	
 
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
+	<?php wp_head(); ?>
 	
+	<!-- Typekit -->
+	<script type="text/javascript" src="//use.typekit.net/mpl0sio.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	
 </head>
 
 <body <?php body_class(); ?>>
+	
+	
 
-
-<div class="navigation_background">
+<div class="navigation_wrap large_navigation">
     
-        <div class="navigation_container">
-            
-            <a href="<?php bloginfo('siteurl'); ?>"> <div class="nav_gls_logo"></div> </a>
-                            
-                <ul class="nav_buttons floatright">
-                    <li class="nav_home_page"> <a href="<?php echo get_page_link(2) ?>"> <span>Home</span> </a> </li>
-                    <li class="nav_about_page"> <a href="<?php echo get_page_link(12) ?>"> <span>About</span> </a> </li>
-                    <li class="nav_projects_page"> <a href="<?php echo get_page_link(17) ?>"> <span>Projects</span> </a> </li>
-                    <li class="nav_courses_page"> <a href="<?php echo get_page_link(19) ?>"> <span>Courses</span> </a> </li>
-		    <li class="nav_people_page"> <a href="<?php echo get_page_link(21) ?>"> <span>People</span> </a> </li>
-		    <li class="nav_conference_page"> <a href="http://www.glsconference.org"> <span>Conference</span> </a> </li>
-		
-		    <li class="nav_search_box">  
-		    
-			<form action="<?php bloginfo('siteurl'); ?>" id="searchform" method="get">
-			
-			    <div class="search_box">
-				<label for="s" class="screen-reader-text">Search for:</label>
-				<input type="text" id="s" name="s" value="" />
-				
-				<input type="submit" value="Search" id="searchsubmit" />
-			    </div>
-			</form>
-			
-			 </a> </li>
-		    
-                </ul>
-
-            
-        </div>
+    <div class="navigation_container">
         
-</div>
+        <a href="http://www.gameslearningsociety.org" class="navigation_logo_link_box"></a>
+        
+        <ul class="navigation">
+            <a href="http://www.gameslearningsociety.org/about.php"> <li class="box left about_page_link">About</li> </a>
+            <a href="http://www.gameslearningsociety.org/games.php"> <li class="box left game_page_link">Games</li> </a>
+            <a href="http://www.gameslearningsociety.org/research.php"> <li class="box left research_page_link">Research</li> </a>
+            <a href="http://www.gameslearningsociety.org/people.php"> <li class="box left people_page_link">People</li> </a>
+            <a href="http://www.gameslearningsociety.org/courses.php"> <li class="box left courses_page_link">Courses</li> </a>
+            <a href="http://glsconference.org/" target="_blank"> <li class="box left">Conference</li> </a>
+            <!--<a href=""> <li class="box left">Blog</li> </a>-->
+            <a href="http://www.gameslearningsociety.org/contact.php"> <li class="box left contact_page_link">Contact</li> </a>
+            <a href="http://www.gameslearningsociety.org/jobs.php"> <li class="box left jobs_page_link">Jobs</li> </a>
+			<a href="http://www.gameslearningsociety.org/blog/"> <li class="box left jobs_page_link">Blog</li> </a>
+            
+            <!-- Social Media Nav Links -->
+            <a href="https://secure.flickr.com/photos/gls-conference" target="_blank">
+                <li class="box right">
+                    <img src="wp-content/themes/glsblog/images/navigation_flickr.png"/>
+                </li>
+            </a>
+            
+            <a href="https://twitter.com/glscenter" target="_blank">
+                <li class="box right">
+                    <img src="wp-content/themes/glsblog/images/navigation_twitter.png"/>
+                </li>
+            </a>
 
-	<div class="page_wrap">
+            <a href="https://www.facebook.com/glsconference" target="_blank">
+                <li class="box right">
+                    <img src="wp-content/themes/glsblog/images/navigation_facebook.png"/>
+                </li>
+            </a>
+        </ul>
+        
+    </div>
 
-		
+</div>  <!-- end nav wrap -->
+
+
+<div class="body_content_container">
+    
+    <div class="body_content">
+    
+
+
 
 
 

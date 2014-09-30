@@ -1,33 +1,33 @@
 <?php get_header(); ?>
 
-<br />
+		<div class="post_header_banner">
+			<?php the_post_thumbnail( $size, $attr ); ?>
+		</div>
+
+		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	
-<div class="full_width floatleft">
-
-
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+			<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 				
-			<div class="post" id="post-<?php the_ID(); ?>">
-	
-				<center><?php the_post_thumbnail('full');?></center>
+				<h2><?php the_title(); ?></h2>
+				
+				<?php include (TEMPLATEPATH . '/inc/meta.php' ); ?>
+				
 
-				<div class="post_header_container">
-					<h1><?php the_title(); ?></h1>
-				</div>				
 				<div class="entry">
-	
+					
 					<?php the_content(); ?>
 	
 					<?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
+					
+					<?php the_tags( 'Tags: ', ', ', ''); ?>
 	
-					<?php comments_template(); ?> 
-
 				</div>
-	
+				
+				<p class="edit_post_link"><?php edit_post_link('Edit this entry',''); ?></p>
+				
 			</div>
 	
-			<?php endwhile; endif; ?>
-</div>
+		<?php endwhile; endif; ?>
 
-<br><br>
 <?php get_footer(); ?>
+

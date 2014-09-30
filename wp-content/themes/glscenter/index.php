@@ -1,8 +1,6 @@
 <?php get_header(); ?>
 
-	<div class="page_wrap">
-	<br>
-	<div class="full_width floatleft">
+	<div class="main_post_content_container">
 
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	
@@ -13,13 +11,7 @@
 				<?php include (TEMPLATEPATH . '/inc/meta.php' ); ?>
 	
 				<div class="entry">
-					<?php the_excerpt(); ?>
-				</div>
-	
-				<div class="postmetadata">
-					<?php the_tags('Tags: ', ', ', '<br />'); ?>
-					Posted in <?php the_category(', ') ?> | 
-					<?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?>
+					<?php the_content(); ?>
 				</div>
 	
 			</div>
@@ -33,8 +25,8 @@
 			<h2>Not Found</h2>
 	
 		<?php endif; ?>
+	
+	</div>
 
-	</div>
-	</div>
 
 <?php get_footer(); ?>
