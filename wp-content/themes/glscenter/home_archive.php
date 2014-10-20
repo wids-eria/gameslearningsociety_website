@@ -104,7 +104,7 @@ $recent_ignore= "-1";
 	<!-- By Title - Econauts -->
 	<?php
 		$args=array(
-		  'cat' => 10,
+		  'cat' => 17,
 		  'showposts' => 1,
 		  'caller_get_posts' => 1
 		);
@@ -135,7 +135,7 @@ $recent_ignore= "-1";
 	<!-- By Title - Progenitor -->
 	<?php
 		$args=array(
-		  'cat' => 11,
+		  'cat' => 23,
 		  'showposts' => 1,
 		  'caller_get_posts' => 1
 		);
@@ -166,7 +166,7 @@ $recent_ignore= "-1";
 	<!-- By Title - Oztoc -->
 	<?php
 		$args=array(
-		  'cat' => 12,
+		  'cat' => 22,
 		  'showposts' => 1,
 		  'caller_get_posts' => 1
 		);
@@ -197,7 +197,7 @@ $recent_ignore= "-1";
 	<!-- By Title - Crystals -->
 	<?php
 		$args=array(
-		  'cat' => 13,
+		  'cat' => 14,
 		  'showposts' => 1,
 		  'caller_get_posts' => 1
 		);
@@ -229,7 +229,7 @@ $recent_ignore= "-1";
 	<!-- By Title - Fair Play -->
 	<?php
 		$args=array(
-		  'cat' => 15,
+		  'cat' => 18,
 		  'showposts' => 1,
 		  'caller_get_posts' => 1
 		);
@@ -260,7 +260,7 @@ $recent_ignore= "-1";
 	<!-- By Title - Anatomy Browser -->
 	<?php
 		$args=array(
-		  'cat' => 16,
+		  'cat' => 12,
 		  'showposts' => 1,
 		  'caller_get_posts' => 1
 		);
@@ -291,7 +291,7 @@ $recent_ignore= "-1";
 	<!-- By Title - Virulent -->
 	<?php
 		$args=array(
-		  'cat' => 17,
+		  'cat' => 25,
 		  'showposts' => 1,
 		  'caller_get_posts' => 1
 		);
@@ -322,7 +322,7 @@ $recent_ignore= "-1";
 	<!-- By Title - Citizen Science -->
 	<?php
 		$args=array(
-		  'cat' => 18,
+		  'cat' => 13,
 		  'showposts' => 1,
 		  'caller_get_posts' => 1
 		);
